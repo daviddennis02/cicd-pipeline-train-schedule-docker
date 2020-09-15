@@ -4,11 +4,11 @@ This is a simple train schedule app written using nodejs. It is intended to be u
 
 ## Build a Docker image of this app with the dockerfile
 
-    sudo docker build -t <your username>/train-schedule .
+    sudo docker build -t <your docker username>/train-schedule .
     
-Run a container of the image 
+Run a container of the built image 
 
-    sudo docker run -p 8080:8080 -d <your username>/train-schedule
+    sudo docker run -p 8080:8080 -d <your docker username>/train-schedule
  
 Once the container is running, you should be able to access the train schediule app in a browser at: 
 
